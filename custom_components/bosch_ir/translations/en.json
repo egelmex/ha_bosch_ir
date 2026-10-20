@@ -1,0 +1,45 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bosch AC via Zigbee IR blaster",
+        "description": "Pick the ZHA IR blaster that points at the air conditioner. It needs the Zosung IR quirk applied.",
+        "data": {
+          "name": "Name",
+          "device_id": "IR blaster"
+        }
+      },
+      "sensors": {
+        "title": "Room sensors and fan speeds",
+        "description": "Sensors show the room's current temperature and humidity on the climate card. The blaster's own sensors are pre-selected.",
+        "data": {
+          "temperature_sensor": "Temperature sensor",
+          "humidity_sensor": "Humidity sensor",
+          "fan_speeds": "Fan speeds to offer (plus auto)"
+        }
+      }
+    },
+    "error": {
+      "not_zha": "That device isn't a ZHA device.",
+      "no_fan_speeds": "Pick at least one fan speed."
+    },
+    "abort": {
+      "already_configured": "This IR blaster is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Room sensors and fan speeds",
+        "data": {
+          "temperature_sensor": "Temperature sensor",
+          "humidity_sensor": "Humidity sensor",
+          "fan_speeds": "Fan speeds to offer (plus auto)"
+        }
+      }
+    },
+    "error": {
+      "no_fan_speeds": "Pick at least one fan speed."
+    }
+  }
+}

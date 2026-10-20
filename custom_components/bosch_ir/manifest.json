@@ -1,0 +1,15 @@
+{
+  "domain": "bosch_ir",
+  "name": "Bosch IR Air Conditioner (Coolix)",
+  "codeowners": ["@egelmex"],
+  "config_flow": true,
+  "dependencies": [
+    "zha"
+  ],
+  "documentation": "https://github.com/egelmex/ha_bosch_ir",
+  "integration_type": "device",
+  "iot_class": "assumed_state",
+  "issue_tracker": "https://github.com/egelmex/ha_bosch_ir/issues",
+  "requirements": [],
+  "version": "1.1.0"
+}
