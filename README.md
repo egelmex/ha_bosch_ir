@@ -50,9 +50,9 @@ ZHA has no built-in support for the ZG-IR01, and its firmware has a bug that sto
 
 ### 2. Install the integration
 
-**With HACS** (once this project is on GitHub):
+**With HACS:**
 
-1. HACS → ⋮ → *Custom repositories* → add the repository URL, type **Integration**.
+1. HACS → ⋮ → *Custom repositories* → add `https://github.com/egelmex/ha_bosch_ir`, type **Integration**.
 2. Install **Bosch IR Air Conditioner (Coolix)**.
 3. Restart Home Assistant.
 
